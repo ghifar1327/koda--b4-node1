@@ -17,7 +17,7 @@ function buatFile(music) {
         fs.mkdirSync(folderPath );
     }
 
-    const filePath = path.join(folderPath, `${judulLagu}.mp3`);
+    const filePath = path.join(folderPath, `${namaArtis}-${judulLagu}.mp3`);
     fs.writeFileSync(filePath, music);
     
   });

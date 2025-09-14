@@ -1,5 +1,7 @@
 // const namaMusik = require('./generateMusic');
+// const namaMusik = require('./asyncronous/asyncGenerateMusic');
 const moveByArtist = require('./moveByArtist');
+// const moveByArtist = require('./asyncronous/asyncMoveByArtist');
 
 
 const music = [
